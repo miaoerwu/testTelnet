@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ping&amp;Telnet</string>
+    <string name="launch_ping_session">Ping</string>
+    <string name="launch_telnet_session">Connect</string>
+    <string name="host_label">Telnet to：xxxx.xxxx.xxxx.xxxx:xxx</string>
+    <string name="entry_send">Send</string>
+    <string name="help">以下是ping和telnet功能</string>
+
+    <!-- This is a better demo, but towel.blinkenlights.nl is more fun :) -->
+</resources>
