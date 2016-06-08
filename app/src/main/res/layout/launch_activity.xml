@@ -8,30 +8,35 @@
         android:id="@+id/help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/help" />
+        android:text="@string/help"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/launchLocal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/launch_ping_session" />
+        android:text="@string/launch_ping_session"
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/hostLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/host_label" />
+        android:text="@string/host_label"
+        android:textSize="25sp" />
 
     <EditText
         android:id="@+id/hostname"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="请按照上述格式写入ip地址和端口号" />
+        android:hint="请按照上述格式写入ip地址和端口号"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/launchTelnet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/launch_telnet_session" />
+        android:text="@string/launch_telnet_session"
+        android:textSize="25sp" />
 
 </LinearLayout>

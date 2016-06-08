@@ -25,14 +25,16 @@
             android:layout_weight="1"
             android:singleLine="true"
             android:imeOptions="actionNone|flagNoExtractUi"
-            android:inputType="text|textImeMultiLine" />
+            android:inputType="text|textImeMultiLine"
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/term_entry_send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:text="@string/entry_send" />
+            android:text="@string/entry_send"
+            android:textSize="25sp" />
 
     </LinearLayout>
 
